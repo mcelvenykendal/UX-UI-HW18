@@ -1,0 +1,121 @@
+
+.heading {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+
+}
+.name{
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    margin:0;
+    margin-bottom: 40px;
+
+}
+.name-container{
+    background: #657351;
+    padding-top:31px;
+    padding-left: 122px;
+
+}
+.image-me{
+    width: 455px;
+
+}
+.flex-container{
+    display: flex;
+}
+.flex1{
+    flex: 1; 
+}
+.aboutme{
+    margin-left: 30px;
+}
+.first-of-three{
+        width: 455px;
+        margin-left: 20px;
+    
+}
+.h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+.imageLabel{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.parentContainer {
+    display:flex; 
+    padding:15px
+}
+
+.flexChild {
+padding: 10px;
+margin: 10px;
+height: 200px;
+flex: 1;
+}
+.nav{
+    display: flex;
+    flex-direction; row;
+    justify-content: flex-end;
+    margin: 50px;
+}
+.nav-item{ 
+    margin: 20px;
+    list-style-type: none;
+}
+.logo{
+    background-color: black;
+    color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    grid-template-areas:
+    "hover"
+    "disabled"
+    ;
+    height: 500px;
+  }
+  .hoverMe {
+    grid-area: hover;
+    background-color: blanchedalmond;
+    color: rgb(12, 7, 7);
+    width: 150px;
+    text-align: center; 
+    height: 50px;
+    transition: 0.3s;
+  
+  }
+  .hoverMe:hover {
+    background-color: #657351;
+    color: white;
+  
+  }
+  .nav-link
+  {
+      text-decoration: none;
+      color: black; 
+
+
+  }
+  .nav-link:hover{
+      border-bottom: 2px solid  #657351;
+      
+  }
